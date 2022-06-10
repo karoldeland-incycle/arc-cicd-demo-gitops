@@ -68,7 +68,7 @@ spec:
         - name: REDIS
           value: azure-vote-back
         - name: TITLE
-          value: VotingApplication
+          value: Voting Application
         image: aksgitops.azurecr.io/azvote/azure-vote-front:d2dc7574ef765189bbe869c2d82ca14772533cb2
         name: azure-vote-front
         ports:
