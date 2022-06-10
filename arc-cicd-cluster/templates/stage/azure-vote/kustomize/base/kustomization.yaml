@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: stage
+
+images:
+  - name: aksgitops.azurecr.io/azvote/azure-vote-front
+    newTag: b543e77f2dab66f9157682eebfc411babb237cf0
+  - name: aksgitops.azurecr.io/azvote/azure-vote-back
+    newTag: b543e77f2dab66f9157682eebfc411babb237cf0
+resources:
+  - manifests.yaml
