@@ -12,3 +12,8 @@ kind: Namespace
 apiVersion: v1
 metadata:
   name: production
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: demo-agile-quebec
