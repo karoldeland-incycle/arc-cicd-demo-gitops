@@ -7,8 +7,3 @@ kind: Namespace
 apiVersion: v1
 metadata:
   name: stage
----
-kind: Namespace
-apiVersion: v1
-metadata:
-  name: test
